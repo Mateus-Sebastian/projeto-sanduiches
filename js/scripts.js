@@ -11,3 +11,8 @@ document.getElementById('backToTopButton').addEventListener('click', function() 
         behavior: 'smooth'
     });
 });
+
+document.getElementById('playAudioButton').addEventListener('click', function() {
+    const audio = document.getElementById('backgroundAudio');
+    audio.play();
+});
